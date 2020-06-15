@@ -184,3 +184,11 @@ Resources:
 - CreateChangeSet
 - ExecuteChangeSet
 - DeleteChangeSet
+
+
+## Task 
+- Create two stacks using a single template with an SQS queue, that should be only created if 
+  - Environment is dev or qa, amongst the three environments[prod, dev, qa, uat]
+  - Region is us-east-2 and us-west-1
+  - Output the queue ARN for both the queues
+  - Output the service endpoints for the resources created in both the regions.
