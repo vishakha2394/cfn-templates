@@ -161,11 +161,26 @@ Resources:
               - 'sts:AssumeRole'
 ```
 
-## CloudFormation APIs
-
-
-
-
-
 ## Change Sets
 
+- Change Set Overview
+
+![alt text](images/ChangeSet.png "ChangeSet Overview")
+
+### Actions
+- Create Change Set
+- View Change Set
+- Execute Change Set
+- Delete Change Set
+
+## CloudFormation APIs
+
+- CreateStack
+- UpdateStack
+- DeleteStack
+- DescribeStacks
+- DescribeStackResource
+- DescribeStackResources
+- CreateChangeSet
+- ExecuteChangeSet
+- DeleteChangeSet
